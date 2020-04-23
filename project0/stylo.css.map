@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,CAAC;EACC,SAAS,EAAE,IAAI;EACf,KAAK,EAJA,KAAK;EAKV,WAAW,EAAE,SAAS",
+"sources": ["stylo.scss"],
+"names": [],
+"file": "stylo.css"
+}

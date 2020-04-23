@@ -1,0 +1,99 @@
+.container{
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.body0{
+  background-image: url(images/background.jpeg);
+  background-size: cover !important;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.container > * {
+  padding: 5px;
+}
+
+.page-main{
+  flex-grow: 1;
+}
+.page-header{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#welcome{
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Homemade Apple', cursive;
+  color: black;
+}
+@media screen and (min-width: 100px) {
+  .page-header{
+    width: auto;
+    margin-top: 0;
+  }
+.navbar-custom {
+          font-family: 'Shadows Into Light', cursive;
+          font-size: 30px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+#list:hover{
+  text-decoration: line-through;
+}
+
+.page-columns{
+  margin:15px;
+  text-align: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+}
+.column{
+  display:flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex:1;
+}
+.column1, column2, column3{
+  height: 100px;
+}
+
+.card-title{
+  font-family: 'Shadows Into Light', cursive;
+}
+.card-text{
+  font-family: 'Shadows Into Light', cursive;
+}
+.page-columns-footer{
+  margin:10px;
+  background-color: white;
+  opacity: 70%;
+  text-align: center;
+}
+.rowf{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+}
+.columnf{
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex:1;
+  text-align: center;
+  height: 100px;
+  font-family: 'Shadows Into Light', cursive;
+}
